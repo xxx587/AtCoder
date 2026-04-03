@@ -1,2 +1,1 @@
-const hi: string = "Hello, TypeScript!";
-console.log(hi);
+console.log('Hello, AtCoder!');

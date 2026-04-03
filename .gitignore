@@ -1,0 +1,39 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Compiled outputs (C, C++, Java, etc.)
+*.exe
+*.out
+*.app
+*.o
+*.obj
+*.class
+
+# Python
+__pycache__/
+*.py[cod]
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment variables
+.env
+
+# Test inputs and outputs (Optional)
+# in/
+# out/
+# *.txt

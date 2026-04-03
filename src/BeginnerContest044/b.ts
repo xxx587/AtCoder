@@ -1,6 +1,6 @@
 import * as fs from 'fs';
 
-const filePath = process.platform === 'win32' ? 'c:\\dev\\code\\typescript\\src\\input.txt' : 0;
+const filePath = process.platform === 'win32' ? 'c:\\dev\\GitHub\\AtCoder\\src\\input.txt' : 0;
 const stdInput: string = fs.readFileSync(filePath, 'utf8');
 
 const Main = () => {
