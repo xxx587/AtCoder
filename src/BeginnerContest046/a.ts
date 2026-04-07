@@ -4,8 +4,10 @@ const filePath = process.platform === 'win32' ? 'c:\\dev\\code\\GitHub\\AtCoder\
 const stdInput: string = fs.readFileSync(filePath, 'utf8');
 
 const main = () => {
-	const [a, b, h]: number[] = stdInput.trim().split(/\s+/).map(Number);
-	console.log(((a + b) * h) / 2);
+	const input: string[] = stdInput.trim().split(/\s+/);
+
+	const deleteSame = [...new Set(input)];
+	console.log(deleteSame.length);
 };
 
 main();

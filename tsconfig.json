@@ -13,10 +13,11 @@
 		"strictNullChecks": true, // null/undefined 실수 방지
 
 		/* 모듈 해석 */
-		"moduleResolution": "node", // Node.js 스타일로 모듈 찾기
+		// "moduleResolution": "node", // Node.js 스타일로 모듈 찾기
 		"esModuleInterop": true, // CommonJS와 ES 모듈 간의 호환성 확보
 		"skipLibCheck": true, // 설치된 라이브러리들의 타입 체크는 건너뛰어 속도 향상
-		"forceConsistentCasingInFileNames": true // 파일 이름의 대소문자 구분 강제
+		"forceConsistentCasingInFileNames": true, // 파일 이름의 대소문자 구분 강제
+		"types": ["node"] // Node.js 내장 모듈(fs, path 등)에 대한 타입 정의 포함
 	},
 	"include": ["src/**/*"], // src 폴더 안의 모든 파일을 컴파일 대상으로 지정
 	"exclude": ["node_modules"] // 제외할 폴더
