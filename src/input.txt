@@ -1,2 +1,1 @@
-atcoderbeginnercontest
-atcoderregularcontest
+77 42 36
